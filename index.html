@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CUESTIONARIO</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<script defer src = "https://app.embed.im/snow.js"></script>
+<body>
+    <nav>
+        Formulario de Preguntas con cuenta regresiva
+    </nav>
+    <form id="cuestionario">
+        <div >
+            <label  id="q1">Pregunta 1: </label>
+            <input type="text" id="input1" >
+        </div>
+        <br>
+        <div>
+            <label id ="q2">Pregunta 2:</label>
+            <input type="text" id="input2" >
+        </div>
+        <br>
+        <div>
+            <label id="q3">Pregunta 3:</label>
+            <input type="text" id="input3" >
+        </div>
+        <br>
+        <div>
+            <label id="q4">Pregunta 4:</label>
+            <input type="text" id="input4" >
+        </div>
+        <br>
+        <div>
+            <label id="q5">Pregunta 5:</label>
+            <input type="text" id="input5" >
+        </div>
+        <br>
+        <button type="button" id="btnIniciar">Iniciar</button>
+        <button type="submit" id="btnEnviar" disabled>Enviar</button>
+        <br>
+        <br>
+        <div id="contador">Tiempo restante: <span id="timer">30 </span> segundos</div>
+
+    </form>
+    <div id="notification"></div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
